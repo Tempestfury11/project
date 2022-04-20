@@ -4,13 +4,12 @@ html, body {
     margin: 0;
     font-family: Roboto, Arial, sans-serif;
     font-size: 14px;
-    color: #666;
+    color: white;
     text-align: center;
     }
     h1 {
     margin: 0 0 20px;
     font-weight: 400;
-    color: #1c87c9;
     }
     p {
     margin: 0 0 5px;
@@ -21,14 +20,15 @@ html, body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #1c87c9;
+    background: #1C87C9;
     }
     form {
     padding: 25px;
     margin: 25px;
-    box-shadow: 0 2px 5px black; 
-    background: #f5f5f5; 
+    box-shadow: 0 2px 5px black;
+    background: grey;
     text-align: center;
+    color: black;
     }
     .fas {
     margin: 25px 10px 0;
@@ -45,7 +45,7 @@ html, body {
     width: calc(100% - 18px);
     padding: 8px;
     margin-bottom: 20px;
-    border: 1px solid #1c87c9;
+    border: 1px solid white;
     outline: none;
     }
     input::placeholder {
@@ -55,14 +55,14 @@ html, body {
     width: 100%;
     padding: 10px;
     border: none;
-    background: #1c87c9; 
+    background: #1C87C9;
     font-size: 16px;
     font-weight: 400;
     color: #fff;
     }
     button:hover {
-    background: #2371a0;
-    }    
+    background: #2371A0;
+    }
     @media (min-width: 568px) {
     .main-block {
     flex-direction: row;
@@ -82,14 +82,40 @@ html, body {
     margin-top: 2%;
     margin-left: 28%;
     }
-
+    }
+    header{
+        height: 100px;
+        min-width: 100%;
+        background-color: black;
+        color: black;
+    }
+    /*header and footer*/
+    header{
+        min-width: 100%;
+        height: 200px;
+        background-color: black;
+        color: white;
+        text-align: center;
     }
     footer{
-        height: 120px;
-        min-width: 100%;
-        display:inline
+        height: 50px;
+        min-width: 100vw;
+        display:inline;
+        background-color:black;
+        color: black
     }
     .icons{
         display: flex;
         justify-content: center;
+    }
+    main {
+        height: 220vh;
+        width:auto;
+        background: url(../images/Eazy.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    p1 {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 250%;
     }
