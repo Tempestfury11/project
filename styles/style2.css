@@ -111,11 +111,20 @@ html, body {
     main {
         height: 220vh;
         width:auto;
-        background: url(../images/Eazy.jpg);
+        background: url(/images/Eazy.jpg);
         background-repeat: no-repeat;
         background-size: cover;
     }
     p1 {
-        font-family: 'Bebas Neue', cursive;
-        font-size: 250%;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 200%;
+        background-color: rgba(0, 0, 0, 0.750);
+    }
+    p2 {
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 100%;
+        background-color: rgba(0, 0, 0, 0.750);
+    }
+    #aboutme{
+        padding: 0 35px;
     }
